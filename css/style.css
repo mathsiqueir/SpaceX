@@ -8,11 +8,15 @@
   font-size: 12px;
   font-weight: bold;
 }
+​.header #navItem:hover {
+  color: #b9b9b9;
+}
 
 .container00 {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .arrow-down {
@@ -27,6 +31,55 @@
   margin-right: 20px;
 }
 
+#navButton {
+  margin-top: 1rem;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: rgb(19, 19, 19);
+  height: 10vh;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyOBC {
+  color: #555252;
+}
+
+@media (max-width: 420px) {
+  .logoPc {
+    width: 11.25rem;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 9rem;
+    margin-top: 1rem;
+    margin-right: 10px;
+  }
+  .footer {
+    font-size: 0.6rem;
+    height: 5vh;
+  }
+}
 .container00.container01 {
   background-image: url(../../onebitX/home/01.jpg);
 }
@@ -41,7 +94,197 @@
 }
 
 .titlePadding {
-  padding-top: 200px;
+  padding-top: 12.5rem;
+}
+
+.shortTitle {
+  width: 34.5rem;
+  margin-bottom: 1.56rem;
+}
+
+.mediumTitle {
+  width: 40.6rem;
+  margin-bottom: 1.56rem;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 10rem;
+  }
+  .mediumTitle, .shortTitle {
+    width: auto;
+  }
+}
+.container00.container05 {
+  background-image: url(../../onebitX/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../onebitX/falcon9/02.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../onebitX/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../onebitX/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../onebitX/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../onebitX/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../onebitX/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(../../onebitX/falcon9/08.jpg);
+}
+
+.titlePaddding {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.table {
+  background-color: transparent !important;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subtitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+.copyOBC {
+  color: #555252;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.downloadDesc a:hover {
+  color: #d8d8d8;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  .numbers p {
+    font-size: 18px;
+  }
+  .falcon9Desc {
+    font-size: 26px;
+  }
+  #overViewPosition {
+    display: block;
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 20%;
+  }
+}
+@media (max-width: 425px) {
+  .titleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .numbers h1 {
+    font-size: 40px;
+  }
+  .numbers p {
+    font-size: 14px;
+  }
+  .containerFalcon9Desc p {
+    width: auto;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #overViewPosition {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+  }
+  .titleOverView {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .subTitleOvewView {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+@media (max-width: 510px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

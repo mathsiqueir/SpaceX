@@ -14,7 +14,25 @@
 	}	
 }
 
-
 .titlePadding{
-	padding-top: 200px;
+	padding-top: 12.5rem; //200 px
+}
+.shortTitle{
+	width: 34.5rem; //550px
+	margin-bottom: 1.56rem;
+}
+
+.mediumTitle{
+	width: 40.6rem; //650px
+	margin-bottom: 1.56rem;
+}
+
+@media (max-width: 750px) {
+	.titlePadding{
+		padding-top: 10rem; //200 px
+	}
+	.mediumTitle, .shortTitle{
+		width: auto;
+		
+	}
 }
